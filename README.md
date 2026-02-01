@@ -40,7 +40,7 @@ A modular, scalable pipeline that:
 
 ---
 
-## 📊 Sample Results
+## Sample Results
 
 ### Color Theory Distribution
 ```
@@ -82,35 +82,30 @@ Abstract: 0.652 | Figurative: 0.234 | Landscape: 0.089 | Still Life: 0.025
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 art-market-visual-analysis/
-├── README.md                          # You are here
-├── requirements.txt                   # Dependency management
-├── .gitignore                         # Exclude data and outputs
-│
-├── src/                               # Modular source code
-│   ├── color_analysis.py             # HSV color extraction & clustering
-│   ├── spatial_analysis.py           # Geometry, symmetry, edge detection
-│   ├── semantic_analysis.py          # CLIP-based content classification
-│   ├── sequence_analysis.py          # Temporal pattern & transition detection
-│   └── utils.py                      # Image loading & preprocessing
-│
-├── data/                              # Your image datasets (gitignored)
-│   └── README.md                      # Data structure guide
-│
-├── outputs/                           # Results (gitignored)
-│   ├── reports/                       # Excel statistical summaries
-│   ├── visualizations/                # PNG/HTML charts
-│   └── logs/                          # Processing logs
-│
-├── docs/                              # Technical documentation
-│   ├── methodology.md                 # Algorithm explanations
-│   └── metrics_reference.md          # All 40+ metrics defined
-│
-└── examples/                          # Quick start scripts
-    └── analyze_single_folder.py
+├── README.md
+├── data
+│   └── README.md
+├── docs
+│   └── methodology.md
+├── examples
+│   └── analyze_single_folder.py
+├── outputs
+│   ├── logs
+│   ├── reports
+│   └── visualizations
+├── requirements.txt
+├── src
+│   ├── __init__.py
+│   ├── color_analysis.py
+│   ├── semantic_analysis.py
+│   ├── sequence_analysis.py
+│   ├── spatial_analysis.py
+│   └── utils.py
+└── tests
 ```
 
 ---
