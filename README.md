@@ -1,4 +1,4 @@
-# 🎨 Art Market Visual Analysis System
+# Art Market Visual Analysis System
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This system bridges art market analytics with state-of-the-art computer vision, enabling **quantitative analysis of visual patterns** in auction house catalogues. By combining traditional image processing with OpenAI's CLIP model, it extracts actionable insights from artwork sequences that inform curatorial strategy, market positioning, and art historical research.
 
@@ -27,7 +27,7 @@ A modular, scalable pipeline that:
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 | Feature | Description | Technology |
 |---------|-------------|------------|
@@ -64,7 +64,7 @@ Abstract: 0.652 | Figurative: 0.234 | Landscape: 0.089 | Still Life: 0.025
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Core Technologies**
 - **Python 3.8+** - Primary language
@@ -97,11 +97,6 @@ art-market-visual-analysis/
 │   ├── sequence_analysis.py          # Temporal pattern & transition detection
 │   └── utils.py                      # Image loading & preprocessing
 │
-├── notebooks/                         # Analysis workflows
-│   ├── 01_exploratory_analysis.ipynb
-│   ├── 02_complete_pipeline.ipynb
-│   └── 03_visualization_dashboard.ipynb
-│
 ├── data/                              # Your image datasets (gitignored)
 │   └── README.md                      # Data structure guide
 │
@@ -120,7 +115,7 @@ art-market-visual-analysis/
 
 ---
 
-## 🚦 Quick Start
+## Quick Start
 
 ### **1. Installation**
 
@@ -183,7 +178,7 @@ clusters = detect_visual_clusters("data/Auction_2023_Fall/")
 
 ---
 
-## 📈 How It Works
+## How It Works
 
 ### **Pipeline Architecture**
 
@@ -197,7 +192,7 @@ clusters = detect_visual_clusters("data/Auction_2023_Fall/")
 
 ---
 
-## 🔬 Metrics Explained
+## Metrics Explained
 
 ### **Color Metrics (12 features)**
 - **Dominant Colors**: Blue, Yellow, Red, Green, Orange, Purple, White, Black (% coverage)
@@ -223,7 +218,7 @@ clusters = detect_visual_clusters("data/Auction_2023_Fall/")
 
 ---
 
-## 📊 Output Examples
+## Output Examples
 
 ### **1. Statistical Summary Tables** 
 9 Excel sheets covering color theory, content classification, medium distribution, spatial organization, and geometry detection.
@@ -241,7 +236,7 @@ Pairwise similarity scores showing visual transitions and curatorial blocks.
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 ### **For Auction Houses**
 - **Catalogue Optimization**: Identify visual rhythm and pacing in lot sequences
@@ -259,92 +254,3 @@ Pairwise similarity scores showing visual transitions and curatorial blocks.
 - **Data Engineering**: ETL pipeline for unstructured visual data → structured analytics
 
 ---
-
-## 🎓 Skills Demonstrated
-
-**For Recruiters:** This project showcases:
-
-✅ **Computer Vision Expertise**
-- Traditional CV (OpenCV): Edge detection, color quantization, shape recognition
-- Deep Learning: Transformer-based models (CLIP), transfer learning, zero-shot classification
-
-✅ **Machine Learning Engineering**
-- Model integration (CLIP + PyTorch)
-- Feature engineering (40+ custom visual metrics)
-- Pipeline design (modular, scalable, reproducible)
-
-✅ **Data Science & Analytics**
-- Statistical analysis (correlation, clustering, distance metrics)
-- Visualization (Matplotlib, Seaborn, Plotly)
-- Reporting (Pandas → Excel with professional formatting)
-
-✅ **Software Engineering**
-- Clean code architecture (modular source files)
-- Version control (Git best practices)
-- Documentation (README, docstrings, methodology docs)
-
-✅ **Domain Knowledge**
-- Art history & curation
-- Color theory (HSV color spaces, primary/secondary/tertiary)
-- Auction market dynamics
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Areas for improvement:
-- [ ] Add ResNet-based feature extraction for comparison with CLIP
-- [ ] Implement UMAP/t-SNE for visual embedding exploration
-- [ ] Add unit tests for color analysis functions
-- [ ] Create Streamlit/Gradio web interface
-- [ ] Optimize for batch processing (parallel GPU inference)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👤 Author
-
-**Muhammad Shaheer Bin Farid**  
-Computer Science & AI Student | HKUST (Dean's List)
-
-- Portfolio: [www.shaheerfarid.com](http://www.shaheerfarid.com/)
-- GitHub: [@shaheerfarid](https://github.com/shaheerfarid)
-- Email: msbfarid@connect.ust.hk
-
----
-
-## 🙏 Acknowledgments
-
-- **OpenAI CLIP** - Zero-shot image classification model
-- **OpenCV Community** - Computer vision algorithms
-- **Art Market Research** - Domain expertise from auction house catalogues
-
----
-
-## 📚 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@software{farid2026artmarket,
-  author = {Farid, Muhammad Shaheer Bin},
-  title = {Art Market Visual Analysis System},
-  year = {2026},
-  url = {https://github.com/shaheerfarid/art-market-visual-analysis}
-}
-```
-
----
-
-<div align="center">
-
-**⭐ If this project helped you, please consider giving it a star! ⭐**
-
-Made with ❤️ and lots of ☕ by Shaheer Farid
-
-</div>
